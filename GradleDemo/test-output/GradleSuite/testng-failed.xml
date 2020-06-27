@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GradleSuite]">
+  <test thread-count="5" name="GradleTest(failed)">
+    <classes>
+      <class name="com.qa.test.GoogleDatadrivenTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="searchTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.qa.test.GoogleDatadrivenTest -->
+    </classes>
+  </test> <!-- GradleTest(failed) -->
+</suite> <!-- Failed suite [GradleSuite] -->

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[i am inside @BeforeSuite block]]>
+    </line>
+    <line>
+      <![CDATA[This annotated block will execute before any test in the suite have ran]]>
+    </line>
+    <line>
+      <![CDATA[i am inside @BeforeTest block]]>
+    </line>
+    <line>
+      <![CDATA[This annotated block will execute before any test tag related classes]]>
+    </line>
+    <line>
+      <![CDATA[Started executing the @BeforeClass -launchBrowser() ]]>
+    </line>
+    <line>
+      <![CDATA[set the chromedriver.exe path]]>
+    </line>
+    <line>
+      <![CDATA[maximize the code]]>
+    </line>
+    <line>
+      <![CDATA[add implicit wait]]>
+    </line>
+    <line>
+      <![CDATA[create object for WebDriverWait class]]>
+    </line>
+    <line>
+      <![CDATA[ i am inside @BeforeMethod block]]>
+    </line>
+    <line>
+      <![CDATA[open the url]]>
+    </line>
+    <line>
+      <![CDATA[wait for the home page title]]>
+    </line>
+    <line>
+      <![CDATA[Started executing the searchTest(String s): selenium]]>
+    </line>
+    <line>
+      <![CDATA[type the selenium keyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[submit on the search editbox]]>
+    </line>
+    <line>
+      <![CDATA[verify the selenium - Google Search title]]>
+    </line>
+    <line>
+      <![CDATA[wait for the search results text]]>
+    </line>
+    <line>
+      <![CDATA[fetch the search resultstext]]>
+    </line>
+    <line>
+      <![CDATA[search results text for selenium is--> About 4,05,00,000 results (0.48 seconds) ]]>
+    </line>
+    <line>
+      <![CDATA[search results count for selenium  is-->4,05,00,000]]>
+    </line>
+    <line>
+      <![CDATA[I am inside @AfterMethod ...]]>
+    </line>
+    <line>
+      <![CDATA[clear the cookies]]>
+    </line>
+    <line>
+      <![CDATA[ i am inside @BeforeMethod block]]>
+    </line>
+    <line>
+      <![CDATA[open the url]]>
+    </line>
+    <line>
+      <![CDATA[wait for the home page title]]>
+    </line>
+    <line>
+      <![CDATA[Started executing the searchTest(String s): UFT]]>
+    </line>
+    <line>
+      <![CDATA[type the UFT keyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[submit on the search editbox]]>
+    </line>
+    <line>
+      <![CDATA[verify the selenium - Google Search title]]>
+    </line>
+    <line>
+      <![CDATA[wait for the search results text]]>
+    </line>
+    <line>
+      <![CDATA[fetch the search resultstext]]>
+    </line>
+    <line>
+      <![CDATA[search results text for UFT is--> About 1,48,00,000 results (0.52 seconds) ]]>
+    </line>
+    <line>
+      <![CDATA[search results count for UFT  is-->1,48,00,000]]>
+    </line>
+    <line>
+      <![CDATA[I am inside @AfterMethod ...]]>
+    </line>
+    <line>
+      <![CDATA[clear the cookies]]>
+    </line>
+    <line>
+      <![CDATA[ i am inside @BeforeMethod block]]>
+    </line>
+    <line>
+      <![CDATA[open the url]]>
+    </line>
+    <line>
+      <![CDATA[wait for the home page title]]>
+    </line>
+    <line>
+      <![CDATA[Started executing the searchTest(String s): cucumber]]>
+    </line>
+    <line>
+      <![CDATA[type the cucumber keyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[submit on the search editbox]]>
+    </line>
+    <line>
+      <![CDATA[verify the selenium - Google Search title]]>
+    </line>
+    <line>
+      <![CDATA[wait for the search results text]]>
+    </line>
+    <line>
+      <![CDATA[fetch the search resultstext]]>
+    </line>
+    <line>
+      <![CDATA[search results text for cucumber is--> About 26,40,00,000 results (0.46 seconds) ]]>
+    </line>
+    <line>
+      <![CDATA[search results count for cucumber  is-->26,40,00,000]]>
+    </line>
+    <line>
+      <![CDATA[I am inside @AfterMethod ...]]>
+    </line>
+    <line>
+      <![CDATA[clear the cookies]]>
+    </line>
+    <line>
+      <![CDATA[started executing the afterClass() of @AfterClass block ...]]>
+    </line>
+    <line>
+      <![CDATA[i am inside @AfterTest block]]>
+    </line>
+    <line>
+      <![CDATA[This annotated block will execute after test tag related classes have been ran]]>
+    </line>
+    <line>
+      <![CDATA[i am inside @AfterTest block]]>
+    </line>
+    <line>
+      <![CDATA[This annotated block will execute after all tests have completed]]>
+    </line>
+  </reporter-output>
+  <suite name="GradleSuite" duration-ms="30434" started-at="2020-06-27T09:56:05 IST" finished-at="2020-06-27T09:56:35 IST">
+    <groups>
+    </groups>
+    <test name="GradleTest" duration-ms="30434" started-at="2020-06-27T09:56:05 IST" finished-at="2020-06-27T09:56:35 IST">
+      <class name="com.qa.test.GoogleDatadrivenTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="beforeSuite" is-config="true" duration-ms="18" started-at="2020-06-27T09:56:05 IST" finished-at="2020-06-27T09:56:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[i am inside @BeforeSuite block]]>
+            </line>
+            <line>
+              <![CDATA[This annotated block will execute before any test in the suite have ran]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-06-27T09:56:05 IST" finished-at="2020-06-27T09:56:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[i am inside @BeforeTest block]]>
+            </line>
+            <line>
+              <![CDATA[This annotated block will execute before any test tag related classes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="launchBrowser" is-config="true" duration-ms="10179" started-at="2020-06-27T09:56:05 IST" finished-at="2020-06-27T09:56:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Started executing the @BeforeClass -launchBrowser() ]]>
+            </line>
+            <line>
+              <![CDATA[set the chromedriver.exe path]]>
+            </line>
+            <line>
+              <![CDATA[maximize the code]]>
+            </line>
+            <line>
+              <![CDATA[add implicit wait]]>
+            </line>
+            <line>
+              <![CDATA[create object for WebDriverWait class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="beforeMethod" is-config="true" duration-ms="2983" started-at="2020-06-27T09:56:15 IST" finished-at="2020-06-27T09:56:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ i am inside @BeforeMethod block]]>
+            </line>
+            <line>
+              <![CDATA[open the url]]>
+            </line>
+            <line>
+              <![CDATA[wait for the home page title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="searchTest" duration-ms="4421" started-at="2020-06-27T09:56:18 IST" data-provider="searchData" finished-at="2020-06-27T09:56:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Started executing the searchTest(String s): selenium]]>
+            </line>
+            <line>
+              <![CDATA[type the selenium keyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[submit on the search editbox]]>
+            </line>
+            <line>
+              <![CDATA[verify the selenium - Google Search title]]>
+            </line>
+            <line>
+              <![CDATA[wait for the search results text]]>
+            </line>
+            <line>
+              <![CDATA[fetch the search resultstext]]>
+            </line>
+            <line>
+              <![CDATA[search results text for selenium is--> About 4,05,00,000 results (0.48 seconds) ]]>
+            </line>
+            <line>
+              <![CDATA[search results count for selenium  is-->4,05,00,000]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="afterMethod" is-config="true" duration-ms="1745" started-at="2020-06-27T09:56:23 IST" finished-at="2020-06-27T09:56:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[I am inside @AfterMethod ...]]>
+            </line>
+            <line>
+              <![CDATA[clear the cookies]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="beforeMethod" is-config="true" duration-ms="947" started-at="2020-06-27T09:56:24 IST" finished-at="2020-06-27T09:56:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ i am inside @BeforeMethod block]]>
+            </line>
+            <line>
+              <![CDATA[open the url]]>
+            </line>
+            <line>
+              <![CDATA[wait for the home page title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="searchTest" duration-ms="1384" started-at="2020-06-27T09:56:25 IST" data-provider="searchData" finished-at="2020-06-27T09:56:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UFT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Started executing the searchTest(String s): UFT]]>
+            </line>
+            <line>
+              <![CDATA[type the UFT keyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[submit on the search editbox]]>
+            </line>
+            <line>
+              <![CDATA[verify the selenium - Google Search title]]>
+            </line>
+            <line>
+              <![CDATA[wait for the search results text]]>
+            </line>
+            <line>
+              <![CDATA[fetch the search resultstext]]>
+            </line>
+            <line>
+              <![CDATA[search results text for UFT is--> About 1,48,00,000 results (0.52 seconds) ]]>
+            </line>
+            <line>
+              <![CDATA[search results count for UFT  is-->1,48,00,000]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="afterMethod" is-config="true" duration-ms="664" started-at="2020-06-27T09:56:27 IST" finished-at="2020-06-27T09:56:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[I am inside @AfterMethod ...]]>
+            </line>
+            <line>
+              <![CDATA[clear the cookies]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="beforeMethod" is-config="true" duration-ms="314" started-at="2020-06-27T09:56:27 IST" finished-at="2020-06-27T09:56:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ i am inside @BeforeMethod block]]>
+            </line>
+            <line>
+              <![CDATA[open the url]]>
+            </line>
+            <line>
+              <![CDATA[wait for the home page title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="searchTest" duration-ms="2423" started-at="2020-06-27T09:56:28 IST" data-provider="searchData" finished-at="2020-06-27T09:56:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cucumber]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Started executing the searchTest(String s): cucumber]]>
+            </line>
+            <line>
+              <![CDATA[type the cucumber keyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[submit on the search editbox]]>
+            </line>
+            <line>
+              <![CDATA[verify the selenium - Google Search title]]>
+            </line>
+            <line>
+              <![CDATA[wait for the search results text]]>
+            </line>
+            <line>
+              <![CDATA[fetch the search resultstext]]>
+            </line>
+            <line>
+              <![CDATA[search results text for cucumber is--> About 26,40,00,000 results (0.46 seconds) ]]>
+            </line>
+            <line>
+              <![CDATA[search results count for cucumber  is-->26,40,00,000]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="afterMethod" is-config="true" duration-ms="1158" started-at="2020-06-27T09:56:30 IST" finished-at="2020-06-27T09:56:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[I am inside @AfterMethod ...]]>
+            </line>
+            <line>
+              <![CDATA[clear the cookies]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="afterClass" is-config="true" duration-ms="4127" started-at="2020-06-27T09:56:31 IST" finished-at="2020-06-27T09:56:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[started executing the afterClass() of @AfterClass block ...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-06-27T09:56:35 IST" finished-at="2020-06-27T09:56:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[i am inside @AfterTest block]]>
+            </line>
+            <line>
+              <![CDATA[This annotated block will execute after test tag related classes have been ran]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.test.GoogleDatadrivenTest@23faf8f2]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-06-27T09:56:36 IST" finished-at="2020-06-27T09:56:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[i am inside @AfterTest block]]>
+            </line>
+            <line>
+              <![CDATA[This annotated block will execute after all tests have completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.test.GoogleDatadrivenTest -->
+    </test> <!-- GradleTest -->
+  </suite> <!-- GradleSuite -->
+</testng-results>
